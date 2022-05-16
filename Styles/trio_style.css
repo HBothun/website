@@ -1,0 +1,80 @@
+html {
+    font-family: cursive;
+    background: darkblue;      
+}
+body {
+    width: 1080px;
+    height: 1500px;
+    margin: auto;
+    background-image: url("trio.jpg");
+    background-position: 0 235px;
+}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: darkblue;
+    text-shadow: 1px 1px 0px red;
+}
+p {
+    font-size: 15px;
+    text-align: right;
+    color: white;
+    text-shadow: 1px 1px 0px darkblue;
+    padding-right: 10px;
+}
+audio {
+    display: block;
+    width: 250px;
+    height: 25px;
+    padding-top: 15px;
+}
+a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 12px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+div {
+    text-align: center;
+}
+.topbar {
+    padding: 30px 0 0 22px;
+    border-radius: 10%;
+}
+.column {
+    float: left;
+    width: 49%;
+    height:25px;
+}
+.row {
+    background: rgba(139, 0, 0, 0.75);
+    width: 1000px;
+    margin-left: 40px;
+}
+.navigation {
+    border-radius: 10%;
+}
+.navigation:link, .navigation:visited {
+    display: inline-block;
+    border-width: 3px 1px;
+    border-style: solid;
+    border-color: darkred transparent;
+    color: darkblue;
+}
+.navigation:hover, .navigation:active {
+    border-width: 3px 1px;
+    border-style: solid;
+    border-color: darkred transparent;
+    background-color: darkblue;
+    color:  darkred
+}
+footer {
+    text-align: right;
+    padding: 10px;
+    font-family: serif;
+    font-size: 7px;
+    line-height: 1px;
+    letter-spacing: 2px;
+    color:darkblue;
+}

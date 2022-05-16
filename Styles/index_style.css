@@ -1,0 +1,97 @@
+html {
+  font-family: sans-serif;  
+  background-color: rgb(136, 46, 61);
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+video {
+  display: block;
+  margin: 1px;
+}
+audio {
+  display: block;
+  margin: 5px 175px;
+}
+body {
+  width: 645px;
+  margin: auto;
+  background-color: rgb(189, 131, 65);
+  padding: 10px 10px 10px 10px;
+  border: 25px solid #4c79f3;
+}
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color:black;
+  text-align: center;
+}
+h1 {
+  margin-top: 0;
+  font-size: 60px;
+  text-align: center;
+  color:#4c79f3;
+  text-shadow: 3px 3px 5px rgb(136, 46, 61);
+  animation-name: whiteTblack;
+  animation-duration: 5s;
+}
+h2 {
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+  color:#4c79f3;
+  text-shadow: 3px 3px 5px rgb(136, 46, 61);
+  animation-name: whiteTblack;
+  animation-duration: 5s;
+}
+a {
+  padding-left: 10px;
+  text-decoration: none;
+  letter-spacing: 10px;
+  color: #4c79f3;
+}
+div {
+  text-align: center;
+  width: 645px;
+  height: 22px;
+}
+#spotify {
+  animation-name: whiteTblack;
+  animation-duration: 5s;
+}
+.navigation:link, .navigation:visited {
+  border-width: 3px 1px;
+  border-style: solid;
+  border-color: #4c79f3 transparent;
+  border-radius: 10%;
+  color: rgb(136, 46, 61);
+}
+.navigation:hover, .navigation:active {
+  border-width: 3px 1px;
+  border-style: solid;
+  border-color: #4c79f3 transparent;
+  border-radius: 10%;
+  background-color: rgb(136, 46, 61);
+  color:  rgb(189, 131, 65);
+}
+footer {
+  padding: 10px 0 0 0;
+  font-family: serif;
+  font-size: 7px;
+  line-height: 1px;
+  letter-spacing: 2px;
+  color:black
+}
+@keyframes whiteTblack {
+  from {
+    color: rgb(136, 46, 61);
+    text-shadow: 3px 3px 5px #4c79f3;
+  }
+  to {
+    color: #4c79f3;
+    text-shadow: 3px 3px 5px rgb(136, 46, 61);    
+  }
+}

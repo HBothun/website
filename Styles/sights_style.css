@@ -1,0 +1,65 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(139, 138, 138);
+}
+img {
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+body {
+  width: 1080px;
+  margin: 0 auto;
+  background-color: rgb(253, 253, 253);
+  padding: 0 20px 20px 20px;
+  border: 25px solid #000000;
+}
+p {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 10px;
+  letter-spacing: 10px;
+}
+div {
+  text-align: center;
+}
+.topbar {
+  padding: 5px 0 0 18px;
+}
+.column {
+  float: left;
+  width: 49%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navigation:link, .navigation:visited {
+  display: inline-block;
+  border-width: 5px 1px;
+  border-style: solid;
+  border-radius: 25%;
+  border-color: black transparent;
+  color: black;
+}
+.navigation:hover, .navigation:active {
+  border-width: 5px 1px;
+  border-style: solid;
+  border-radius: 25%;
+  border-color: grey transparent;
+  background-color: black;
+  color:  grey;
+}
+footer {
+  text-align: right;
+  padding: 5px;
+  font-family: serif;
+  font-size: 7px;
+  line-height: 1px;
+  letter-spacing: 2px;
+  color:black
+}

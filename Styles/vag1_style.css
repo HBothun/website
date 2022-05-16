@@ -1,0 +1,95 @@
+html {
+    font-family: cursive;
+    background: cyan      
+}
+body {
+    width: 1080px;
+    height: 1080px;
+    margin: auto;
+    background-image: url("vag1.jpg");
+}
+/* h1 {
+    font-family: fantasy;
+    font-size: 47px;
+    color: pinkl;
+    text-align: center;
+    text-shadow: 1px 1px 0px red;
+} */
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: darkgreen;
+    text-shadow: 1px 1px 0px black;
+}
+p {
+    font-size: 20px;
+    text-align: right;
+    color: darkgreen;
+    text-shadow: 1px 1px 0px black;
+    padding-right: 10px;
+}
+audio {
+    display: block;
+    width: 250px;
+    height: 25px;
+    padding-top: 25px;
+}
+a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 12px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+div {
+    text-align: center;
+}
+.topbar {
+    padding: 30px 0 0 22px;
+    border-radius: 10%;
+}
+.column {
+    float: left;
+    width: 49%;
+    height:25px;
+}
+.row {
+    background: rgba(30, 157, 167, 0.75);
+    width: 680px;
+    margin-left: 200px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    height: 1px;
+}
+.video {
+    text-align: center;
+}
+.navigation {
+    border-radius: 10%;
+}
+.navigation:link, .navigation:visited {
+    display: inline-block;
+    border-width: 3px 1px;
+    border-style: solid;
+    border-color: darkgreen transparent;
+    color: cyan;
+}
+.navigation:hover, .navigation:active {
+    border-width: 3px 1px;
+    border-style: solid;
+    border-color: cyan transparent;
+    background-color: darkgreen;
+    color:  cyan;
+}
+footer {
+    text-align: right;
+    padding: 10px;
+    font-family: serif;
+    font-size: 7px;
+    line-height: 1px;
+    letter-spacing: 2px;
+    color:cyan;
+}
