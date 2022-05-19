@@ -6,7 +6,7 @@ body {
     width: 1080px;
     height: 1080px;
     margin: auto;
-    background-image: url("sonic.jpg");
+    background-image: url("../Sounds/sonic/sonic.jpg");
 }
 h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

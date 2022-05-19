@@ -6,7 +6,7 @@ body {
     width: 1080px;
     height: 1500px;
     margin: auto;
-    background-image: url("trio.jpg");
+    background-image: url("../Sounds/trio/trio.jpg");
     background-position: 0 235px;
 }
 h1 {

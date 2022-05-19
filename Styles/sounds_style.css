@@ -48,7 +48,7 @@ div {
     height:125px;
     width:200px;
     background-size: cover;
-    background-image: url("iv.jpg");
+    background-image: url("../Sounds/iv/iv.jpg");
     padding-top: 75px;
     margin-left: 440px;
 }
@@ -56,14 +56,14 @@ div {
     height:125px;
     width:200px;
     background-size: cover;
-    background-image: url("casketrose.jpg");
+    background-image: url("../Sounds/casketrose/casketrose.jpg");
     padding-top: 75px;
 }
 #sonic {
     height:125px;
     width:200px;
     background-size: cover;
-    background-image: url("sonic.jpg");
+    background-image: url("../Sounds/sonic/sonic.jpg");
     padding-top: 75px;
     margin-left: 300px;
 }
@@ -71,14 +71,14 @@ div {
     height:125px;
     width:200px;
     background-size: cover;
-    background-image: url("bngrz.jpg");
+    background-image: url("../Sounds/brkn/bngrz.jpg");
     padding-top: 75px;
 }
 #vag1 {
     height:125px;
     width:200px;
     background-size: cover;
-    background-image: url("vag1.jpg");
+    background-image: url("../Sounds/vag1/vag1.jpg");
     padding-top: 75px;
     margin-left: 300px;
 }
@@ -86,14 +86,14 @@ div {
     height:125px;
     width:200px;
     background-size: cover;
-    background-image: url("cap.jpg");
+    background-image: url("../Sounds/cap/cap.jpg");
     padding-top: 75px;
 }
 #thought {
     height:125px;
     width:200px;
     background-size: cover;
-    background-image: url("thought.jpg");
+    background-image: url("../Sounds/thought/thought.jpg");
     padding-top: 75px;
     margin-left: 300px;
 }
@@ -101,14 +101,14 @@ div {
     height:125px;
     width:200px;
     background-size: cover;
-    background-image: url("vag2.jpg");
+    background-image: url("../Sounds/vag2/vag2.jpg");
     padding-top: 75px;
 }
 #trio {
     height:125px;
     width:200px;
     background-size: cover;
-    background-image: url("trio.jpg");
+    background-image: url("../Sounds/trio/trio.jpg");
     padding-top: 75px;
     margin-left: 300px;
 }
@@ -116,7 +116,7 @@ div {
     height:125px;
     width:200px;
     background-size: cover;
-    background-image: url("-tion.jpg");
+    background-image: url("../Sounds/-tion/-tion.jpg");
     padding-top: 75px;
     margin-left: 440px;
 }
@@ -124,7 +124,7 @@ div {
     height:125px;
     width:200px;
     background-size: cover;
-    background-image: url("live.jpg");
+    background-image: url("../Sounds/live/live.jpg");
     padding-top: 75px;
     margin-left: 440px;
 }
