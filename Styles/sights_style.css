@@ -1,5 +1,4 @@
 html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(139, 138, 138);
 }
 img {
@@ -8,14 +7,25 @@ img {
   padding: 10px;
 }
 body {
-  width: 1080px;
+  width: 1100px;
   margin: 0 auto;
   background-color: rgb(253, 253, 253);
-  padding: 0 20px 20px 20px;
   border: 25px solid #000000;
 }
-p {
+h1{
   text-align: center;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+h2{
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 15px;
 }
 a {
   text-decoration: none;
@@ -32,11 +42,6 @@ div {
 .column {
   float: left;
   width: 49%;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 .navigation:link, .navigation:visited {
   display: inline-block;
