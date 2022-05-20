@@ -1,0 +1,182 @@
+html {
+    font-family: cursive;
+    background: linear-gradient(135deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);      
+}
+body {
+    width: 1080px;
+    margin:auto;
+    background: linear-gradient(45deg, rgba(252,70,107,1) 0%, rgba(63,94,251,1) 100%);
+}
+h1 {
+    font-family: fantasy;
+    font-size: 47px;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 0px pink;
+}
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 0px pink;
+}
+p {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(4, 5, 53);
+    padding: 0 10px 0 0;
+}
+audio {
+    display: block;
+    padding: 18px 10px 0 10px;
+    width: 250px;
+}
+video {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 12px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+div {
+    text-align: center;
+}
+#iv {
+    height:125px;
+    width:200px;
+    background-size: cover;
+    background-image: url("../Sounds/iv/iv.jpg");
+    padding-top: 75px;
+    margin-left: 440px;
+}
+#casket {
+    height:125px;
+    width:200px;
+    background-size: cover;
+    background-image: url("../Sounds/casketrose/casketrose.jpg");
+    padding-top: 75px;
+}
+#sonic {
+    height:125px;
+    width:200px;
+    background-size: cover;
+    background-image: url("../Sounds/sonic/sonic.jpg");
+    padding-top: 75px;
+    margin-left: 300px;
+}
+#brkn {
+    height:125px;
+    width:200px;
+    background-size: cover;
+    background-image: url("../Sounds/brkn/bngrz.jpg");
+    padding-top: 75px;
+}
+#vag1 {
+    height:125px;
+    width:200px;
+    background-size: cover;
+    background-image: url("../Sounds/vag1/vag1.jpg");
+    padding-top: 75px;
+    margin-left: 300px;
+}
+#cap {
+    height:125px;
+    width:200px;
+    background-size: cover;
+    background-image: url("../Sounds/cap/cap.jpg");
+    padding-top: 75px;
+}
+#thought {
+    height:125px;
+    width:200px;
+    background-size: cover;
+    background-image: url("../Sounds/thought/thought.jpg");
+    padding-top: 75px;
+    margin-left: 300px;
+}
+#vag2 {
+    height:125px;
+    width:200px;
+    background-size: cover;
+    background-image: url("../Sounds/vag2/vag2.jpg");
+    padding-top: 75px;
+}
+#trio {
+    height:125px;
+    width:200px;
+    background-size: cover;
+    background-image: url("../Sounds/trio/trio.jpg");
+    padding-top: 75px;
+    margin-left: 300px;
+}
+#tion {
+    height:125px;
+    width:200px;
+    background-size: cover;
+    background-image: url("../Sounds/-tion/-tion.jpg");
+    padding-top: 75px;
+    margin-left: 440px;
+}
+#live {
+    height:125px;
+    width:200px;
+    background-size: cover;
+    background-image: url("../Sounds/live/live.jpg");
+    padding-top: 75px;
+    margin-left: 440px;
+}
+.column {
+    float: right;
+    margin-right: 300px;
+}
+.button:link, .button:visited {
+    display: inline-block;
+    position: relative;
+    z-index: 1;     
+    padding: 100px;     
+    margin: -75px;
+}
+.button:hover, .button:active {
+    display: inline-block;
+    position: relative;
+    z-index: 1;     
+    padding: 100px;     
+    margin: -75px;
+    background: rgba(225, 225, 225, 0.25);
+}
+.topbar {
+    padding: 30px 0 0 22px;
+    border-radius: 10%;
+}
+.video {
+    text-align: center;
+}
+.navigation {
+    border-radius: 10%;
+}
+.navigation:link, .navigation:visited {
+    display: inline-block;
+    border-width: 3px 1px;
+    border-style: solid;
+    border-color: rgb(4, 5, 53) transparent;
+    color: rgb(4, 5, 53);
+}
+.navigation:hover, .navigation:active {
+    border-width: 3px 1px;
+    border-style: solid;
+    border-color: blue transparent;
+    background-color: rgb(224, 117, 135);
+    color:  blue;
+}
+footer {
+    text-align: right;
+    padding: 10px;
+    font-family: serif;
+    font-size: 7px;
+    line-height: 1px;
+    letter-spacing: 2px;
+    color:black
+}
